@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+
+.heading {
+  color: #0000A0;
+  font-size:30px;
+}
+
+.name {
+	  color: #0000A0;
+  font-size:30px; 
+  	 padding-top:220px;
+  	 font-weight: bold;
+}
+.Position {
+		  color: 	#000080;
+  font-size:20px; 
+    padding-top:15px;
+	padding-left:35px;
+}
+.left {
+	
+}
+.right {
+	font:arial; 
+	  color: 	#0000FF;
+  font-size:25px;
+  padding-left: 98px;
+  
+}
+
+.paragraph {
+	color: 	#000080;
+	width:98%;
+}
+.face {	
+	width: 250px;
+    float: left;
+  border-radius:300%;
+
+}
