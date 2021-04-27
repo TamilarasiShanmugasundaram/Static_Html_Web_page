@@ -1,41 +1,127 @@
-@charset "ISO-8859-1";
-
-
 .heading {
-  color: #0000A0;
-  font-size:30px;
+	color: #0000A0;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+
+.leftWordings {
+    padding-top: 10px;
+	color: #0000A0;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
 }
 
 .name {
-	  color: #0000A0;
-  font-size:30px; 
-  	 padding-top:220px;
-  	 font-weight: bold;
+    color: #0000A0;
+	font-size: 30px;
+	padding-top: 220px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
 }
-.Position {
-		  color: 	#000080;
-  font-size:20px; 
-    padding-top:15px;
-	padding-left:35px;
-}
+
 .left {
-	
+	padding-top: 20px;
+	width: 20%;
 }
+
 .right {
-	font:arial; 
-	  color: 	#0000FF;
-  font-size:25px;
-  padding-left: 98px;
-  
+	font: arial;
+	color: #0000FF;
+	font-size: 25px;
+	padding-left: 65px;
+	width: 72%;
+}
+
+.institute {
+	padding-left: 10px;
+	font-size: 15px;
+	padding-top: 10px;
+	color: #c8cddc;
+}
+
+.educationDate {
+	padding-left: 5px;
+	font-size: 15px;
+	padding-top: 8px;
+	color: #c8cddc;
+}
+
+.datePic {
+	padding-left: 560px;
+	padding-top: 2px;
+}
+
+.Position {
+	color: #063970;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-left: 55px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .paragraph {
-	color: 	#000080;
-	width:98%;
+	color: #063970;
+	font-family: 'Open Sans', sans-serif;
 }
-.face {	
-	width: 250px;
-    float: left;
-  border-radius:300%;
 
+.degree {
+	padding-top: 20px;
+	color: #063970;
+}
+
+.masterPic {
+	padding-top: 7px;
+}
+
+.face {
+	width: 250px;
+	float: left;
+	border-radius: 50%;
+	height: 180px;
+	width: 250px;
+}
+
+.flex {
+	display: inline-flex;
+}
+
+.developer {
+	width: 930px;
+	color: #063970;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.fulltime {
+	padding-left: 560px;
+}
+
+.companyName {
+	font-size: 15px;
+	padding-top: 5px;
+	padding-left: 10px;
+	color: #c8cddc;
+	width: 90px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.date {
+	font-size: 15px;
+	padding-top: 5px;
+	color: #c8cddc;
+	width: 200px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.city {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	width: 200px;
+	padding-top: 5px;
+	color: #c8cddc;
+}
+
+.resume {
+	width: 200px;
+	padding-top: 30px;
 }
