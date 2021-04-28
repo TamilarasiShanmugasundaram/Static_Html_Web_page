@@ -1,127 +1,201 @@
+.container {
+	width: 100%;
+}
+
+.left-container {
+	vertical-align: top;
+	display: inline-block;
+	width: 20%;
+	position: relative;
+	top: 20px;
+}
+
+.right-container {
+	display: inline-block;
+	font: arial;
+	color: #0000FF;
+	font-size: 25px;
+	padding-left: 60px;
+	width: 70%;
+}
+.resume {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 15px;
+   color: white;
+   border-radius: 15px;
+   background: #367CFF;
+   height: 30px;
+   width: 200px;
+   text-align: center;
+   padding-top:15px;
+   position: relative;
+   top: 40px;
+}
+.left-images {
+padding-left: 10px;
+display: inline-block;
+}
+.block {
+	display: inline-block;
+}
+
 .heading {
 	color: #0000A0;
 	font-size: 30px;
 	font-weight: bold;
+	padding-top: 25px;
 	font-family: 'Poppins', sans-serif;
 }
 
-.leftWordings {
-    padding-top: 10px;
+.left-wordings {
+	padding-top: 10px;
 	color: #0000A0;
+	display: inline-block;
 	font-weight: bold;
 	font-family: 'Poppins', sans-serif;
-}
-
-.name {
-    color: #0000A0;
-	font-size: 30px;
-	padding-top: 220px;
-	font-weight: bold;
-	font-family: 'Poppins', sans-serif;
-}
-
-.left {
-	padding-top: 20px;
-	width: 20%;
-}
-
-.right {
-	font: arial;
-	color: #0000FF;
-	font-size: 25px;
-	padding-left: 65px;
-	width: 72%;
+	opacity: 0.8;
+	position:relative;
+	bottom:5px;
+	left:10px;
 }
 
 .institute {
-	padding-left: 10px;
+	bottom: 5px;
+	position: relative;
 	font-size: 15px;
 	padding-top: 10px;
 	color: #c8cddc;
+	font-weight: bold;
+	display: inline-block;
 }
 
-.educationDate {
-	padding-left: 5px;
+.education-date {
+
 	font-size: 15px;
 	padding-top: 8px;
 	color: #c8cddc;
+	bottom: 5px;
+	position: relative;
+	display: inline-block;
+	font-weight: bold;
 }
 
-.datePic {
-	padding-left: 560px;
+.date-pic {
+	padding-left: 350px;
 	padding-top: 2px;
+}
+.space {
+	padding-top: 45px;
+}
+.name {
+	color: #0000A0;
+	font-size: 25px;
+	padding-left: 25px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	width: 200px;
+	text-align: center;
 }
 
 .Position {
 	color: #063970;
-	font-size: 20px;
-	padding-top: 15px;
-	padding-left: 55px;
+	font-size: 16px;
+	padding-left: 50px;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .paragraph {
-	color: #063970;
+	color: #626F9C;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	width:92%;
 }
 
 .degree {
 	padding-top: 20px;
 	color: #063970;
+	font-size: 20px;
 }
 
-.masterPic {
+.master-pic {
 	padding-top: 7px;
+	display: inline-block;
 }
 
 .face {
-	width: 250px;
-	float: left;
 	border-radius: 50%;
-	height: 180px;
-	width: 250px;
+	height: 130px;
+	width: 150px;
+	left: 50px;
+	top: 10px;
+	position: relative;
 }
 
-.flex {
-	display: inline-flex;
-}
-
-.developer {
-	width: 930px;
+.designation {
+	
+	width: 730px;
+	display: inline-block;
+	font-size: 20px;
 	color: #063970;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;	
 }
-
 .fulltime {
-	padding-left: 560px;
-}
-
-.companyName {
+	
+	display: inline-block;
+	border-radius: 25px;
+	background: #d7ffe0;
+height:25px;
+width:110px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	opacity:0.7;
+	color: #445589;
+	padding-top:10px;
+ }
+ hr {
+	 opacity: .1;
+ }
+.company-name {
 	font-size: 15px;
 	padding-top: 5px;
-	padding-left: 10px;
+	padding-left: 5px;
 	color: #c8cddc;
+	display: inline-block;
 	width: 90px;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	bottom:5px;
 }
-
+.senior-developer-date {
+	padding-left: 340px;
+	
+}
+.junior-developer-date {
+	padding-left: 250px;
+		
+}
 .date {
 	font-size: 15px;
-	padding-top: 5px;
+	position: relative;
+	bottom:5px;
 	color: #c8cddc;
-	width: 200px;
+	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
 
 .city {
+	position: relative;
+	bottom:4px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	width: 200px;
-	padding-top: 5px;
 	color: #c8cddc;
-}
-
-.resume {
-	width: 200px;
-	padding-top: 30px;
+	display: inline-block;
+	font-weight: bold;
 }
